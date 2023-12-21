@@ -1,14 +1,15 @@
 import NavBar from "./components/header/NavBar";
 import CenterSection from "./components/center-section/CenterSection";
 import Footer from "./components/footer/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <NavBar />
       <CenterSection />
       <Footer />
-    </div>
+    </Router>
   );
 }
 
