@@ -8,7 +8,7 @@ const ImageSection = () => {
       <img
         className="max-md:w-[80%] w-2/4 m-[auto]"
         src={homePageImg}
-        alt="home page image"
+        alt="home page picture"
       />
     </div>
   );
