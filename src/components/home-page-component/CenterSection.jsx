@@ -1,13 +1,12 @@
 import React from "react";
-import CenterComponent from "../center-section-component/CenterComponent";
+import CenterTextComponent from "../center-section-component/CenterTextComponent";
+import ImageSection from "../center-section-component/ImageSection";
 
 const CenterSection = () => {
   return (
-    <div className=" w-screen h-[90vh] relative flex items-center bg-slate-100  ">
-      <div className="w-2/4 flex items-center content-center ">
-        <CenterComponent />
-      </div>
-      <div className="w-2/4"></div>
+    <div className=" max-md:flex-wrap-reverse w-screen h-[90vh] relative flex items-center bg-slate-100  ">
+      <CenterTextComponent />
+      <ImageSection />
     </div>
   );
 };

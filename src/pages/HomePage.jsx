@@ -4,7 +4,7 @@ import Footer from "../components/home-page-component/Footer";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="font-akshay">
       <CenterSection />
       <Footer />
     </div>
