@@ -4,7 +4,7 @@ import ImageSection from "../center-section-component/ImageSection";
 
 const CenterSection = () => {
   return (
-    <div className=" max-md:flex-wrap-reverse w-screen h-[90vh] relative flex items-center bg-slate-100  ">
+    <div className="max-md:justify-center justify-center max-md:flex-wrap-reverse w-screen h-[90vh] relative flex items-center bg-slate-100  ">
       <CenterTextComponent />
       <ImageSection />
     </div>
