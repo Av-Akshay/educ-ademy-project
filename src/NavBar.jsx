@@ -1,7 +1,7 @@
 import React from "react";
 
-import Logo from "../navbar-components/Logo";
-import RepoLink from "../navbar-components/RepoLink";
+import Logo from "./components/navbar-components/Logo";
+import RepoLink from "./components/navbar-components/RepoLink";
 
 const NavBar = () => {
   return (
