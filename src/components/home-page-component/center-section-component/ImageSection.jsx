@@ -6,9 +6,9 @@ const ImageSection = () => {
   return (
     <div className="w-2/4 max-md:w-[80%] max-md:m-[auto]">
       <img
-        className="max-md:w-[80%] w-2/4 m-[auto]"
+        className="max-md:w-[55%] w-2/4 m-[auto] animate-dheere"
         src={homePageImg}
-        alt="home page picture"
+        alt="AnimatedImage"
       />
     </div>
   );

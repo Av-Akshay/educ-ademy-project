@@ -2,8 +2,6 @@ import React from "react";
 
 import CenterTextComponent from "./center-section-component/CenterTextComponent";
 import ImageSection from "./center-section-component/ImageSection";
-// import CenterTextComponent from "./center-section-component/CenterTextComponent";
-// import ImageSection from "./center-section-component/ImageSection";
 
 const CenterSection = () => {
   return (

@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         akshay: ["Mina", "sans-serif"],
       },
+      animation: {
+        dheere: "bounce 3s linear infinite",
+      },
     },
   },
   plugins: [],
